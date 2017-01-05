@@ -41,15 +41,15 @@
             <id>start-selenium</id>
             <phase>integration-test</phase>
          <goals>
-         <goal>selenese</goal>
+           <goal>selenese</goal>
         </goals>
        <configuration>
-       <suite>src/test/resources/selenium/TestSuite.xhtml</suite>
-     <browser>*firefox</browser>
-     <multiWindow>true</multiWindow>
-     <background>true</background>
+         <suite>src/test/resources/selenium/TestSuite.xhtml</suite>
+         <browser>*firefox</browser>
+         <multiWindow>true</multiWindow>
+         <background>true</background>
       <results>./target/results/selenium.html</results>
-      se<startURL>http://localhost:8080/login/</startURL>
+      <startURL>http://localhost:8080/login/</startURL>
       </configuration>
      </execution>
     </executions>
