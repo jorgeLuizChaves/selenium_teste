@@ -49,7 +49,7 @@
          <multiWindow>true</multiWindow>
          <background>true</background>
       <results>./target/results/selenium.html</results>
-      <startURL>http://localhost:8080/login/</startURL>
+      <startURL>http://localhost:8081</startURL>
       </configuration>
      </execution>
     </executions>
